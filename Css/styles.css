@@ -1,0 +1,40 @@
+/******************************TAG SELECTOR*******************************/
+
+h1 {
+  color: green;
+  font-size: 30px;
+}
+
+body {
+  background-color: gray
+}
+
+img:hover {
+  background-color: yellow;
+}
+
+/******************************CLASS SELECTOR*****************************/
+
+.bacon {
+  background-color: pink;
+}
+
+.broccoli {
+  background-color: blue
+}
+
+.circular {
+  border-radius: 30px;
+}
+
+/*******************************ID SELECTOR*******************************/
+
+#heading {
+  color: orange;
+}
+
+/*Id Selector có mức độ ưu tiên cao hơn so với Class Selector*/
+/*Id Selector và Class Selector đều cớ mức độ ưu tiên cao hơn những cái còn lại*/
+/*Id Selector chỉ dùng để định danh styling một phần tử duy nhất trong một single page*/
+/*Không được dùng nhiều hơn một Id Selector cho nhiều phần tử vì nó sẽ ảnh hưởng tới việc định danh trong Javascript*/
+/*Mặc dù trên CSS và HTML chúng đều được apply và affect lên layout bình thường mà không phát sinh lỗi*/
